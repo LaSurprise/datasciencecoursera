@@ -5,6 +5,7 @@ To demonstrate our ability to collect, work with, and clean a data set.
 The goal is to prepare tidy data that can be used for later analysis
 
 ### Data organization and localization
+
 * Working directory : "C:\Data Scientist\3-Getting and Cleaning Data\Project\UCI HAR Dataset"
 * Test data directory : "C:\Data Scientist\3-Getting and Cleaning Data\Project\UCI HAR Dataset\test"
 * Train data directory : "C:\Data Scientist\3-Getting and Cleaning Data\Project\UCI HAR Dataset\train"
@@ -12,6 +13,7 @@ The goal is to prepare tidy data that can be used for later analysis
 * run_analysis.R, tidy_data.txt and variables.txt directory : Working directory
 
 ### How the script works
+
  *1 - Set work directory
  *2 - Read data
  *3 - Remove special caracters from features names
