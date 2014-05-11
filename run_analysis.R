@@ -116,3 +116,4 @@ run_analysis <- function() {
   ## create file with variables
   write.csv(names(tidy_data),"variables.txt",row.names = FALSE)
 }
+## =============================================================================================================

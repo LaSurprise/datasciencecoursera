@@ -25,3 +25,5 @@ The goal is to prepare tidy data that can be used for later analysis
 11 - Merge all subsets 
 12 - Create a file with tidy data
 13 - Create a file with variables names
+
+================================================================================================================================================
