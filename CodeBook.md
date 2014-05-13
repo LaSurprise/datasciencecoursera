@@ -72,12 +72,10 @@ Each row displays the average of each variable for each activity and each subjec
 
 ### Variables
 The 89 variables used to produce tidy data are the result of the above transformation
-===========================================
 * "activity_num" : activity class
 * "subject" : subject number
 * "activity_label" : acivity label
 * "others" : all mean and std measurments
-===========================================
 * "activity_num"
 * "subject"
 * "tBodyAcc_mean_X"
