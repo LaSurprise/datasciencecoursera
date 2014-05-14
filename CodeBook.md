@@ -1,10 +1,10 @@
-## Cousera Getting and Cleaning Data Project : Code Book
+##Cousera Getting and Cleaning Data Project : Code Book
 
-### Purpose of the project
+###Purpose of the project
 To demonstrate our ability to collect, work with, and clean a data set. 
 The goal is to prepare tidy data that can be used for later analysis
 
-### Source Data
+###Source Data
 Data used in this project come from Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 Measurments come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
@@ -21,7 +21,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ  
+tBodyAcc-XYZ    
 tGravityAcc-XYZ  
 tBodyAccJerk-XYZ  
 tBodyGyro-XYZ  
@@ -53,7 +53,7 @@ std(): Standard deviation
  "X_train.txt" : Training set.
  "y_train.txt" : Trainig labels.
 
-### Transformation
+###Transformation
 In order to produce a tidy data with R, some transformation have been made
 * Remove special caracters from features names
 * Merge train and test data to create one data set
@@ -66,11 +66,11 @@ In order to produce a tidy data with R, some transformation have been made
 * Create a file with tidy data : "tidy_data.txt"
 * Create a file with new variables : "variables.txt"
 
-### Tidy Data
+###Tidy Data
 A set of 180 rows and 89 variables.
 Each row displays the average of each variable for each activity and each subject. 
 
-### Variables
+###Variables
 The 89 variables used to produce tidy data are the result of the above transformation  
  "activity_num" : activity class  
  "subject" : subject number  
@@ -167,3 +167,6 @@ The 89 variables used to produce tidy data are the result of the above transform
  "angleZgravityMean"  
  "activity_label"  
 
+
+
+**Done**
